@@ -8,53 +8,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- source Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="icon" type="image/png" href="src/tabah.png"/>
 </head>
 <body>
     <!-- navbar -->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-bottom">
-            <a class="navbar-smoeray" href="#">
+            <a class="navbar-smoeray mr-auto " href="#">
             <img src="src/tabah2.png" width="30" height="40" alt="" loading="lazy">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Berita <span class="sr-only">(current)</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <section>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Berita <span class="sr-only">(current)</span></a>
                     </li>
-                <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Staff
-                    </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="">Guru</a>
-                        <a class="dropdown-item" href="">Tata Usaha</a>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Guru</a>
+                        <a class="dropdown-item" href="#">Tata Usaha</a>
                         </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Eskull
-                    </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="">Osis</a>
-                        <a class="dropdown-item" href="">Pramuka</a>
-                        <a class="dropdown-item" href="">Paskibra</a>
-                        </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Alumni</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">PPDB</a>
-                </li>
-                </ul>
-            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Eskull
+                        </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="">Osis</a>
+                            <a class="dropdown-item" href="">Pramuka</a>
+                            <a class="dropdown-item" href="">Paskibra</a>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Alumni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">PPDB</a>
+                    </li>
+                    </ul>
+                </div>
+            </section>
         </nav>
     </div>
-        
+
+    <!-- Banner -->
+    <div class="container">
+
+    </div>
+    <header class="text-center ">
+        <h1>
+            SMAN 1 JONGGOL
+        </h1>
+        <h3>
+            Kampus Hijau Berdudaya
+        </h3>
+        <p>
+            Jl. SUkasirna, Jonggol, Bogor
+        </p>
+    </header>
     <!-- Menyisipkan JQuery dan Javascript Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
 </body>
